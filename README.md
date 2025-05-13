@@ -4,12 +4,7 @@ A MERN stack application with email verification and role-based authentication.
 
 ---
 
-## Project Structure
-
-USER MANAGEMENT/
-├── user-management-backend/
-├── user-management-frontend/
-└── README.md
+🔗 [Live Demo](https://user-management-ui-tau.vercel.app)
 
 ---
 
@@ -41,12 +36,19 @@ npm install
 ```
 
 Create a .env file:
+
 PORT=5000
+
 FRONTEND_URL=http://localhost:5173
+
 DB_HOST=your_db_host
+
 DB_USER=your_db_user
+
 DB_PASSWORD=your_db_password
+
 DB_NAME=your_db_name
+
 JWT_SECRET=your_jwt_secret
 
 Start the server:
@@ -65,6 +67,7 @@ npm install
 ```
 
 Create a .env file:
+
 VITE_BACKEND_URL=http://localhost:5000
 
 Start the frontend:
