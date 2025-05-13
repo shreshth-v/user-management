@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import CustomerRegisterPage from "./pages/CustomerRegisterPage";
 import AdminRegisterPage from "./pages/AdminRegisterPage";
 import AdminLoginPage from "./pages/AdminLoginPage";
+import NotFoundPage from "./pages/NotFoundPage";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
               path="/login/admin"
               element={!authUser ? <AdminLoginPage /> : <Navigate to="/" />}
             />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
       </Router>
