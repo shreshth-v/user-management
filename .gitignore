@@ -1,0 +1,32 @@
+# Ignore node_modules for both frontend and backend
+user-management-backend/node_modules/
+user-management-frontend/node_modules/
+
+# Ignore .env files for both frontend and backend
+user-management-backend/.env
+user-management-frontend/.env
+
+# Ignore build files
+frontend/build/
+backend/build/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignore build and cache folders for deployment
+user-management-frontend/.vercel/
+user-management-frontend/.cache/
+user-management-backend/.cache/
+user-management-frontend/build/
+user-management-backend/build/
+user-management-frontend/dist/
+user-management-backend/dist/
+
+# Miscellaneous files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
